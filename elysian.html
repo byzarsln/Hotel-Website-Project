@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="styles.css" />
+    <title>Elysian Luxury</title>
+</head>
+<body>
+    <nav>
+        <div class = "nav_bar">
+            <div class = "nav_header">
+                <div class = "logo nav_logo">
+                    <div><b>E</b></div>
+                    <span>Elysian<br \><i>Luxury<br \>Hotel</span>
+                </div>
+                <div class="nav_menu_buton" id = "menu_buton">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class = "nav_links" id = "nav_links">
+                <li><a href= "#home">Home</a></li>
+                <li><a href= "#about">About Us</a></li>
+                <li><a href= "#room">Rooms</a></li>
+                <li><a href= "#menu">Menu</a></li>
+                <li><a href= "#events">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="home">
+        <div class="section_container header_container">
+            <p class="section_subheader">WELCOME TO</p>
+            <h1>LEGENDARY GRACE AND<br /> UNFORGETTABLE LUXURY</h1>
+        </div>
+    </header>
+
+    <section class="booking">
+        <div class="section_container booking_container">
+            <form action="/">
+                <div class="input_group">
+                    <label for="arrival">Arrival Date</label>
+                    <input class="arrival-date" type="date" placeholder="Your Arrival Date">
+                </div>
+                <div class="input_group">
+                    <label for="departure">Departure Date</label>
+                    <input class="departure-date" type="date" placeholder="Your Departure Date">
+                </div>
+                <div class="input_group">
+                    <label for="room">Room</label>
+                    <select class="rooms">
+                        <option selected value="">Your Room Choice</option>
+                        <option value="presidental">Presidental Suite</option>
+                        <option value="empire">Empire Suite</option>
+                        <option value="superior">Superior Suite</option>
+                        <option value="rosewood">Rosewood Suite</option>
+                    </select>
+                
+                </div>
+                <div class="input_group">
+                    <label for="guests">Guests</label>
+                    <input type="number" class="number-of-guests" placeholder="No Of Guests">
+                </div>
+                <input type="submit" class="buton" value="Check Availability"/>
+            </form>
+        </div>
+    </section>
+
+    <section class = "about" id = "about">
+        <div class="section_container about_container">
+            <div class="about_grid">
+                <div class="about_image">
+                    <img src="images/strongteam.jpg" alt="about">
+                </div>
+                <div class="about_card">
+                    <span><i class="ri-user-3-line"></i></span>
+                    <h4>Strong Team</h4>
+                    <p>Unlocking Hospitality Excellence And Ensures Your perfect Stay</p>
+                </div>
+                <div class="about_image">
+                    <img src="images/suite.jpg" alt="about">
+                </div>
+                <div class="about_card">
+                    <span><i class="ri-hotel-bed-fill"></i></span>
+                    <h4>Luxury Room</h4>
+                    <p>Experience Unrivaled Luxury at Our Exquisite Luxury Rooms</p>
+                </div>
+            </div>
+            <div class="about_content">
+                <p class="section_subheader2">ABOUT US</p>
+                <h2 class="section_header"> A Haven Where Luxury Unfolds Before Your Eyes</h2>
+                <p class="section_description2">
+                    "Elysian Luxury promises not just accommodation,
+                    but an extraordinary luxury experience, offering a unique 
+                    lifestyle. With elegantly designed rooms, culinary delights 
+                    crafted by our award-winning chefs, and limitless comfort, 
+                    Eysian invites guests to indulge in the luxury and tranquility 
+                    it provides. Join us to experience beyond ordinary, revel in an 
+                    exceptional stay, and open the doors to a privileged world."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class = "room_container" id="room">
+        <p class="section_subheader2">ROOMS</p>
+        <h2 class="section_header">Hand Picked Rooms</h2>
+        <div class="room_grid">
+            <div class="room_card">
+                <img src="images/presidentalroom.jpg" alt="room">
+                <div class="room_card_details">
+                    <div>
+                        <h4>Presidental Suite</h4>
+                        <p>The meeting point of limitless luxury, unique views, and exclusive comfort.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="room_card">
+                <img src="images/empiresuite.jpg" alt="room">
+                <div class="room_card_details">
+                    <div>
+                        <h4>Empire Suite</h4>
+                        <p>Enchanting architectural details, spacious living areas, and breathtaking views abound.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="room_card">
+                <img src="images/superior.jpg" alt="room">
+                <div class="room_card_details">
+                    <div>
+                        <h4>Superior Suite</h4>
+                        <p>With its rich interior and the enchantment of the city's panoramic view, you will find yourself within the luxury privilege.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="room_card">
+                <img src="images/rosewoodsuite.jpg" alt="room">
+                <div class="room_card_details">
+                    <div>
+                        <h4>Rosewood Suite</h4>
+                        <p>Enjoy the taste of simple luxury with minimalist elegance in interior design and the ever-present unique landscape.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="section_container intro_container">
+            <div class="intro_cotent">
+                <p class="section_subheader">INTRO VIDEO</p>
+                <h2 class="section_header2">Are You Ready To Dream With Elegance, Luxury, Comfort and An Extraordinary Experience?</h2>
+                <p class="section_description">
+                Elysian Luxury has been consistently recognized 
+                as one of the top hotels to stay at by travel 
+                magazines and consumer organizations,epitomizes 
+                the impeccable service expected from a New York 
+                City legendary hotel. It is the destination of 
+                choice for luxury in Manhattan.
+                </p>
+                <br />
+                <div class="intro_video">
+                    <video src="images/elysianluxvid.mp4" autoplay muted loop></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="section_container menu_container">
+            <div class="menu_header">
+                <div>
+                    <p class="section_subheader">MENU</p>
+                    <h2 class="section_header3">EAT & DRINK</h2>
+                </div>
+                <h3>You will reach the peak of pleasure with unique flavors prepared by special chefs.</h3>
+                <br />
+                <button class="buton" style="width: 200px;"><a href="menu.html" target="_blank" style="text-decoration: none; color:white;">Learn More</a></button>
+            </div>
+        </div>
+    </section>
+    <br />
+
+    <section class = "events" id = "events">
+        <h2 class="section_header" >Events</h2>
+        <br />
+        <div class="about_grid">
+            <div class="about_image">
+                <img src="images/loungebar.jpg" alt="about">
+            </div>
+            <div class="about_card">
+                <h4>Lounge Bar Event</h4>
+                <p>1.30 pm / Everyday at Lounge Bar</p>
+            </div>
+            <div class="about_image">
+                <img src="images/bocelli.jpg" alt="about">
+            </div>
+            <div class="about_card">
+                <h4>Andrea Bocelli Concert</h4>
+                <p>10.00 pm / Friday at Amphitheatre</p>
+            </div>
+            <div class="about_image">
+                <img src="images/jazzclub.jpg" alt="about">
+            </div>
+            <div class="about_card">
+                <h4>Jazz Club</h4>
+                <p>8.00 pm / Saturday at Mini Concert hall</p>
+            </div>
+            <div class="about_image">
+                <img src="images/cinema.jpg" alt="about">
+            </div>
+            <div class="about_card">
+                <h4>Cinema Night</h4>
+                <p>9.00 pm / Sunday at Garden</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="section_container footer_container">
+            <div class="footer_col">
+                <h4>Contact Us</h4>
+                <div class="footer_links">
+                    <li>
+                        <span><i class="ri-map-pin-2-line"></i></span>
+                        <div>
+                            <h5>Adress</h5>
+                            <p>35 East 76th St., New York, NY 10021, USA</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span><i class="ri-phone-line"></i></span>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>+1 212 744 1600</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span><i class="ri-mail-line"></i></span>
+                        <div>
+                            <h5>Mail</h5>
+                            <p>elysianluxury@hotelsgroup.com</p>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="hotel.js"></script>
+</body>
+</html>
